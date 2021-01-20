@@ -63,7 +63,7 @@ public class AnimalTest {
 //		test.moveAnimal(hAnimal);
 //		test.moveAnimal(tAnimal);
 //		test.moveAnimal(eAnimal);
-		
+		 
 		//arrayList로 뽑아보기 
 		//원하는 타입을 넣어줌
 		ArrayList<Animal> animalList = new ArrayList<Animal>();
