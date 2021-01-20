@@ -70,7 +70,7 @@ public class AnimalTest {
 		animalList.add(hAnimal);
 		animalList.add(tAnimal);
 		animalList.add(eAnimal);
-		
+		 
 		for(Animal animal : animalList) {
 			animal.move(); //각 인스턴스의 move를 호출 virtual function 	
 		}
