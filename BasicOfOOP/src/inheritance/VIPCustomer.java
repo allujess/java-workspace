@@ -18,7 +18,7 @@ public class VIPCustomer extends Customer{
 		
 	//	System.out.println("VIP (int, String)...blahblah");
 
-	}
+	} 
 
 	//상위클래스에 있던 메소드를 여기 (하위클래스에서) 재정의해서 다시씀 	
 	//오버라이딩 재정의함 
