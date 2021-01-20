@@ -4,7 +4,7 @@ public class OverridingTest {
 
 	public static void main(String[] args) {
 
-		
+		//같은타입으로 선언과 생성을 함 
 		Customer customerLee = new Customer(10010, "이순신");
 		customerLee.bonusPoint = 1000;
 		
@@ -23,12 +23,12 @@ public class OverridingTest {
 		
 		System.out.println(customerKim.showCustomerInfo()  +  "지불 금액은 " + priceKim + "입니다.");
 	
-		//calcPrice는 
-	
-		Customer customerNo = new VIPCustomer(10030, "나몰라");
-		customerNo.bonusPoint = 10000;
 		
-	
+		//calcPrice는 
+		Customer customerNo = new VIPCustomer(10030, "나몰라");
+		customerNo.bonusPoint = 1000;
+		System.out.println(customerNo.showCustomerInfo() + "지불금액은" + customerNo.calcPrice(10000) + "원 입니다."); 
+		
 	
 	
 	

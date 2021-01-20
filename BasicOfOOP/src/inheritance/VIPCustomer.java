@@ -20,15 +20,16 @@ public class VIPCustomer extends Customer{
 
 	}
 
+	//상위클래스에 있던 메소드를 여기 (하위클래스에서) 재정의해서 다시씀 	
 	//오버라이딩 재정의함 
 	@Override
-	public int calcPrice(int price) {
+	public int calcPrice(int price) { //선언부가 동일해야함 자료형조차 다르면 오류남 
 
-		
+					
 		bonusPoint += price * bonusRatio;
 		
 			//가격은 할인
-		return price - (int)(price * salesRatio);
+		return price - (int)(price * salesRatio); 
 		
 		
 	}
