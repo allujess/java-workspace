@@ -7,7 +7,7 @@ public class Customer {
 	protected String customerName; //고객이름 
 	protected String customerGrade; //silver 일반등급 
 	int bonusPoint;	//보너스포인트 지급
-	double bonusRatio; //실버등급은 1프로 적립 만원사면 백원적립 	
+	double bonusRatio; //실버등급은 1프로 적립. 예)만원사면 백원적립 	
 	
 	//default 생성자 로 초기화 
 //	public Customer() {
@@ -38,7 +38,6 @@ public class Customer {
 	}
 	
 	public String showCustomerInfo() {
-		
 		return customerName +"님의 등급은 " + customerGrade + "이며, 적립된 보너스 포인트는 " + bonusPoint + "접입니다.";
 		
 	}

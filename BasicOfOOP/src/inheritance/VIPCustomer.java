@@ -1,10 +1,10 @@
 package inheritance;
 
-//굳이 따로 구현하는게아니라 Customer를 상속을 받자 
+//속성과 기능이 확장된 VIP클래스이다. 굳이 따로 구현하는게아니라 Customer를 상속을 받자 
 public class VIPCustomer extends Customer{
 	
 	
-	private int agentID;	//고객사 
+	private int agentID;	//담당 상담원 	
 	double salesRatio;		//할인비율 
 
 	//매개변수를 받는 생성자를 만들고 
@@ -13,8 +13,8 @@ public class VIPCustomer extends Customer{
 		super(customerID, customerName);  
 		
 		customerGrade = "VIP";
-		bonusRatio = 0.05;
-		salesRatio = 0.1;
+		bonusRatio = 0.05; //적립률 	
+		salesRatio = 0.1; //10프로 깍아줌 	
 		
 	//	System.out.println("VIP (int, String)...blahblah");
 
